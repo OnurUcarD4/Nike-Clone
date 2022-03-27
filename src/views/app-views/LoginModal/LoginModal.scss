@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap");
+*:focus {
+  outline: none;
+}
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.637);
+  z-index: 20;
+}
+.Modal {
+  @apply p-10 rounded-md shadow-md;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  right: 40px;
+  bottom: 40px;
+  background-color: white;
+  transform: "translate(-50%, -50%)";
+  transition: all 0.4s;
+  z-index: 20;
+}
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+}
+.nike-unite-swoosh {
+  @apply mt-4 flex justify-center mb-4;
+}
+.header-text {
+  @apply font-extrabold text-xl text-center;
+  span {
+    @apply text-2xl;
+    font-family: "Oswald", sans-serif;
+  }
+}
+.login-panel-form {
+  @apply flex flex-col;
+  input {
+    @apply pl-4 text-sm border text-gray-400 w-96 py-4 mt-4 rounded-md;
+  }
+  .login-panel-desc {
+    @apply text-xs mt-4 text-center text-gray-500;
+  }
+  .login-panel-button {
+    @apply mt-4  px-4 py-2 bg-black text-white rounded-md font-extrabold text-base;
+    font-family: "Oswald", sans-serif;
+  }
+}
+.register-panel-form {
+  @apply flex flex-col;
+  input {
+    @apply pl-4 text-sm border text-gray-400 w-96 py-4 mt-4 rounded-md;
+  }
+  .register-panel-desc {
+    @apply text-xs mt-4 text-center text-gray-500;
+  }
+  .register-panel-button {
+    @apply mt-4  px-4 py-2 bg-black text-white rounded-md font-extrabold text-base;
+    font-family: "Oswald", sans-serif;
+  }
+  #country {
+    @apply mt-4 pl-4 text-sm py-4 text-gray-500 border rounded-md;
+    -webkit-appearance: none;
+  }
+}

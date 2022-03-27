@@ -1,0 +1,6 @@
+.search-input {
+  @apply border rounded-lg p-4 w-[30rem] mt-2 hover:border-black;
+}
+.search-input-logo {
+  @apply absolute text-lg right-5 top-5 opacity-50;
+}

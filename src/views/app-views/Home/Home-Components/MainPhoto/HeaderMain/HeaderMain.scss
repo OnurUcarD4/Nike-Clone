@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@200&display=swap");
+
+.header-main {
+  text-align: center;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  .head-text {
+    font-family: "Passion One", cursive;
+    font-size: 55px;
+    font-weight: bolder;
+    margin-top: 15px;
+  }
+  .buttons-main {
+    gap: 4px;
+    display: flex;
+    justify-content: center;
+    button {
+      border-radius: 30px;
+      padding: 4.5px 18.5px;
+      background: #111;
+      color: white;
+      border: none;
+      margin-top: 30px;
+      font-size: 1.2rem;
+      border: 1.5px solid transparent;
+      font-family: "League Spartan", sans-serif;
+    }
+    button:hover {
+      background-color: #555;
+      cursor: pointer;
+    }
+    margin-bottom: 8rem;
+  }
+}

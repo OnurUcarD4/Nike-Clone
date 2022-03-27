@@ -1,0 +1,10 @@
+.Slider-Buttons {
+  button {
+    @apply hover:bg-[#cccccc] duration-300 ml-2;
+    height: 48px;
+    width: 48px;
+    border-radius: 24px;
+    background-color: #e5e5e5;
+    color: rgb(63, 63, 63);
+  }
+}

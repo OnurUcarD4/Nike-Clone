@@ -1,0 +1,21 @@
+$bg-color: #f5f5f5;
+.swiper-resp {
+  .swiper-notification {
+    background-color: $bg-color;
+    height: 6vh;
+    border-bottom: #e7e5e5 1px solid;
+    text-align: center;
+    line-height: 6vh;
+    font-size: small;
+    .app-link {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+  .swiper {
+    z-index: 10;
+  }
+  @media (max-width: 952px) {
+    @apply hidden;
+  }
+}

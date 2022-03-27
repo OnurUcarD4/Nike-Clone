@@ -1,0 +1,9 @@
+.scan-code-main {
+  @apply flex flex-col justify-center text-center;
+  .mobile-download-button {
+    @apply md:hidden bg-black rounded-full px-2 w-20  py-2 text-white text-opacity-80 hover:bg-gray-400;
+  }
+  .main-text {
+    @apply text-xl mt-10 hidden md:block;
+  }
+}

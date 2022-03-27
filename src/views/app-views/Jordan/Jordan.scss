@@ -1,0 +1,12 @@
+.jordan {
+  @apply mt-4 text-center flex flex-col justify-center items-center;
+  .jordan-desc {
+    @apply mt-4 text-lg;
+  }
+  .jordan-button {
+    @apply bg-black px-4 py-2 text-white font-bold rounded-full w-24 mt-4 hover:opacity-80 duration-300;
+  }
+}
+.jordan-button {
+  @apply bg-black px-4 py-2 text-white font-bold rounded-full w-24 mt-4 hover:opacity-80 duration-300;
+}

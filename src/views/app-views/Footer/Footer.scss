@@ -1,0 +1,18 @@
+.col-span {
+  @apply col-span-1  mt-10;
+  .head-col {
+    @apply font-bold text-white flex flex-col gap-4;
+    li {
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    }
+  }
+  ul {
+    @apply text-white flex flex-col gap-4;
+  }
+}
+.privacy {
+  span {
+    @apply text-[#555] text-xs hover:text-[#999] cursor-pointer;
+  }
+}

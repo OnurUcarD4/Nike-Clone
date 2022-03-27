@@ -1,0 +1,46 @@
+.custom-checkbox {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  width: 1em;
+  height: 1em;
+  border-radius: 3px;
+  -webkit-appearance: none;
+  border: solid 1px gray;
+}
+.custom-checkbox:checked {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/White_check.svg/768px-White_check.svg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-color: black;
+  border: solid 1px black;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.custom-color {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  width: 2em;
+  height: 2em;
+  border-radius: 100%;
+  -webkit-appearance: none;
+}
+.custom-color:checked {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/White_check.svg/768px-White_check.svg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
