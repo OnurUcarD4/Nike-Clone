@@ -2,4 +2,3 @@
 
 <h3>Responsive Nike clone with ReactJS, TailwindCSS, SCSS.<h3>
   <a href="https://nikeclone-onurucar.netlify.app">DEMO</a>
-<a href="https://nikeclone-onurucar.netlify.app/erkek">CATEGORY DEMO</a>
